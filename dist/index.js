@@ -1,2 +1,6 @@
 "use strict";
-console.log("Hello!");
+function printDouble(msg) {
+    console.log(msg);
+    console.log(msg);
+}
+printDouble("HELLO WORLD :)");
